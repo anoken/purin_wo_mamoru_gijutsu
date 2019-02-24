@@ -3,6 +3,7 @@
 
 //This Port is M5Camera of JP-Model
 //https://www.switch-science.com/catalog/5207/
+//This Code based on https://github.com/m5stack/m5stack-cam-psram/tree/uart
 #define CAMERA_MODEL_M5STACK_PSRAM
 #if defined(CAMERA_MODEL_M5STACK_PSRAM)
 #define PWDN_GPIO_NUM     -1
