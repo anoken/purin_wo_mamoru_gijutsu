@@ -1,12 +1,10 @@
 # プリンを守る技術
-サポートページです。
 
 ![001__](https://user-images.githubusercontent.com/31365453/55197680-9ed3dc00-51f6-11e9-9458-941c1f5f4a52.png)
 
 
 ## 紹介
-技術書典6で頒布します。
-
+技術書典6で頒布する「プリンを守る技術」のサポートページです。
 https://techbookfest.org/event/tbf06/circle/71440001
 
 ## 紹介
