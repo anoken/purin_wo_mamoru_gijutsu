@@ -1,3 +1,7 @@
+//Copyright (c) 2019 aNoŒ¤ ƒvƒŠƒ“‚ğç‚é‹Zp 
+//https://github.com/anoken/purin_wo_mamoru_gijutsu/
+//
+
 #include "AquesTalkTTS.h"
 #include <M5Stack.h>
 #define AQUESTALK_KEY "xxxx"

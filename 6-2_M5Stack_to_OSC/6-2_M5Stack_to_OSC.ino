@@ -1,3 +1,7 @@
+//Copyright (c) 2019 aNo研 プリンを守る技術 
+//https://github.com/anoken/purin_wo_mamoru_gijutsu/
+//
+
 #include <M5Stack.h>
 #include <ArduinoOSC.h>
 #include "AquesTalkTTS.h"

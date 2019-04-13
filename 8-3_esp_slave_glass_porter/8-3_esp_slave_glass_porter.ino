@@ -1,3 +1,7 @@
+//Copyright (c) 2019 aNo研 プリンを守る技術 
+//https://github.com/anoken/purin_wo_mamoru_gijutsu/
+//
+
 /*  ESP-Nowの Slave側の通信フロー
   Step1：WifiをWIFI_APモードで起動する
   Step2：WIFI_APモードで、SlaveのSSIDとパスワードを設定する

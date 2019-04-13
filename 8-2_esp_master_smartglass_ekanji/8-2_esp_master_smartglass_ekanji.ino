@@ -1,3 +1,7 @@
+//Copyright (c) 2019 aNo研 プリンを守る技術 
+//https://github.com/anoken/purin_wo_mamoru_gijutsu/
+//
+
 /*  ESP-Nowの Master側の通信フロー
   Step1：WifiをSTAモードで起動する
   Step2：Master上のESP-Now を初期化する

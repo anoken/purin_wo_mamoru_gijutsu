@@ -1,3 +1,7 @@
+//Copyright (c) 2019 aNoŒ¤ ƒvƒŠƒ“‚ğç‚é‹Zp 
+//https://github.com/anoken/purin_wo_mamoru_gijutsu/
+//
+
 #include <esp_camera.h>
 #include "driver/uart.h"
 

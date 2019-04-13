@@ -1,3 +1,7 @@
+//Copyright (c) 2019 aNo研 プリンを守る技術 
+//https://github.com/anoken/purin_wo_mamoru_gijutsu/
+//
+
 #include <M5Stack.h>
 #include <ssl_client.h>
 #include <WiFiClientSecure.h>
@@ -7,7 +11,7 @@
 #define SSID        "yourwifi"
 #define PASSWORD     "yourpass"
 const char* host = "notify-api.line.me";
-const char* token = "ZRT4b0JZExVKPbQrDQNL1wYFl1VlVJPgMK13svWuB0H";
+const char* token = "your_token";
 
 /* Define ------------------------------------------------------------ */
 typedef enum {
