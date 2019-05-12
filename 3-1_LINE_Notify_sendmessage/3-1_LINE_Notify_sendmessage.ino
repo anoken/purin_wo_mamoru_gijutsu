@@ -38,11 +38,15 @@ void send_line_alert() {
   }
 /* LINE NotifyのサーバへHTTPS通信でメッセージをPOSTする */
   String query = "message=" + String(message1);
-  String request=String("")+"POST /api/notify HTTP/1.1\r\nHost:"
-+host+"\r\nAuthorization:Bearer"+token+"\r\nContent-Length:" 
-+ String(query.length())+ 
-"\r\nContent-Type: application/x-www-form-urlencoded\r\n\r\n"
- +query + "\r\n";
+  
+    String request = String("") +
+                   "POST /api/notify HTTP/1.1\r\n" +
+                   "Host: " + host + "\r\n" +
+                   "Authorization: Bearer " + token + "\r\n" +
+                   "Content-Length: " + String(query.length()) +  "\r\n" +
+                   "Content-Type: application/x-www-form-urlencoded\r\n\r\n" +
+                   query + "\r\n";
+
   client.print(request);
   while (client.connected()) {
     String line_str = client.readStringUntil('\n');
