@@ -44,7 +44,7 @@ void ScanForSlave() {
       }
       delay(10);
       // Check if the current device starts with `Slave`
-      if (SSID.indexOf("nnn_wifi") == 0) {
+      if (SSID.indexOf("your_ssid") == 0) {
         // SSID of interest
         Serial.println("Found a Slave.");
         Serial.print(i + 1); Serial.print(": "); Serial.print(SSID); Serial.print(" ["); Serial.print(BSSIDstr); Serial.print("]"); Serial.print(" ("); Serial.print(RSSI); Serial.print(")"); Serial.println("");
