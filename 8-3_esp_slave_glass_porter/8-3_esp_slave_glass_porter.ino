@@ -47,7 +47,7 @@ void loop() {
 }
 
 void configDeviceAP() {     //Step2
-  char* SSID = "your_ssid";
+  char* SSID = "your_ssid_1";
   bool result = WiFi.softAP(SSID, "your_password", CHANNEL, 0);
   if (!result) {
     Serial.println("AP Config failed.");
