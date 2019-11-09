@@ -3,7 +3,7 @@
 ![001__](https://user-images.githubusercontent.com/31365453/55197680-9ed3dc00-51f6-11e9-9458-941c1f5f4a52.png)  
 
 
-## 紹介  
+## 概要  
 「プリンを守る技術 --M5Stackで始めるロボット開発の世界--」のサポートページです。  
  
  BOOTHで頒布中
